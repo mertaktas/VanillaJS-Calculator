@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(136.04deg, #FF3A3A 0%, #E44040 98.25%);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-family: Poppins;
+  color: #fff;
+}
+
+body .calculator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 65px 45px;
+  margin: 0 auto;
+  width: 400px;
+  height: 600px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2E2E2E), color-stop(50.52%, #2C2C2C), to(rgba(36, 36, 36, 0.87)));
+  background: linear-gradient(180deg, #2E2E2E 0%, #2C2C2C 50.52%, rgba(36, 36, 36, 0.87) 100%);
+  border-radius: 14.7879px;
+}
+
+body .calculator .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  text-align: center;
+  margin-bottom: 55px;
+  padding: 0 20px;
+}
+
+body .calculator .medium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+  padding: 0 20px;
+  margin-bottom: 15px;
+}
+
+body .calculator .medium .transactions {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+body .calculator .medium .result {
+  font-size: 58px;
+}
+
+body .calculator .bottom {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .calculator .bottom .operations {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  height: 100%;
+  text-align: center;
+}
+
+body .calculator .bottom .operations .box {
+  width: 80px;
+  height: 100%;
+}
+
+body .calculator .bottom .operations .box span {
+  font-size: 28px;
+  line-height: 65px;
+}
+/*# sourceMappingURL=style.css.map */
