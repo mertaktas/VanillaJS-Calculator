@@ -65,10 +65,11 @@ body .calculator .medium {
   text-align: right;
   padding: 0 20px;
   margin-bottom: 15px;
+  min-height: 80px;
 }
 
 body .calculator .medium .transactions {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -101,11 +102,16 @@ body .calculator .bottom .operations {
 }
 
 body .calculator .bottom .operations .box {
+  cursor: pointer;
   width: 80px;
   height: 100%;
 }
 
-body .calculator .bottom .operations .box span {
+body .calculator .bottom .operations .box a {
+  color: #fff;
+}
+
+body .calculator .bottom .operations .box a span {
   font-size: 28px;
   line-height: 65px;
 }
