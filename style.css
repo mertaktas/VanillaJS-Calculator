@@ -20,6 +20,12 @@ body {
   place-items: center;
   font-family: Poppins;
   color: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+
+body .header h3 {
+  font-size: 42px;
 }
 
 body .calculator {
@@ -30,13 +36,11 @@ body .calculator {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 65px 45px;
+  padding: 55px 45px;
   margin: 0 auto;
-  width: 400px;
-  height: 600px;
   background: -webkit-gradient(linear, left top, left bottom, from(#2E2E2E), color-stop(50.52%, #2C2C2C), to(rgba(36, 36, 36, 0.87)));
   background: linear-gradient(180deg, #2E2E2E 0%, #2C2C2C 50.52%, rgba(36, 36, 36, 0.87) 100%);
-  border-radius: 14.7879px;
+  border-radius: 15px;
 }
 
 body .calculator .top {
@@ -78,8 +82,6 @@ body .calculator .medium .result {
 }
 
 body .calculator .bottom {
-  height: 100%;
-  width: 100%;
   padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,5 +116,82 @@ body .calculator .bottom .operations .box a {
 body .calculator .bottom .operations .box a span {
   font-size: 28px;
   line-height: 65px;
+}
+
+.color-palette {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.color-palette .color-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px 5px;
+}
+
+.color-palette .color-set .color-1 {
+  background: #2E2E2E;
+}
+
+.color-palette .color-set .color-2 {
+  background: #FF3A3A;
+}
+
+.color-palette .color-set .color-3 {
+  background: #FFFFFF;
+}
+
+.color-palette .color {
+  margin: 0 3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .creater {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+footer .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .social-media a {
+  margin: 0 5px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -15,16 +15,19 @@ body
     place-items: center
     font-family: Poppins;
     color: #fff
+    height: 100vh;
+    width: 100vw;
+    .header
+        h3
+            font-size: 42px
 
     .calculator
         display: flex
         flex-direction: column
-        padding: 65px 45px
+        padding: 55px 45px
         margin: 0 auto
-        width: 400px
-        height: 600px
         background: linear-gradient(180deg, #2E2E2E 0%, #2C2C2C 50.52%, rgba(36, 36, 36, 0.87) 100%);
-        border-radius: 14.7879px;
+        border-radius: 15px
         .top
             display: flex
             justify-content: space-between
@@ -47,8 +50,6 @@ body
             .result
                 font-size: 58px
         .bottom
-            height: 100%
-            width: 100%
             padding: 10px
             display: flex
             align-items: center
@@ -67,3 +68,37 @@ body
                         span
                             font-size: 28px
                             line-height: 65px
+
+.color-palette
+    display: flex
+    .color-set
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 5px 5px
+        .color-1
+            background: #2E2E2E
+        .color-2
+            background: #FF3A3A
+        .color-3
+            background: #FFFFFF
+    .color
+        margin: 0 3px
+        width: 15px
+        height: 15px
+        border-radius: 50%
+        border: 2px solid #fff
+footer
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .creater
+        display: flex
+        flex-direction: column
+        margin-bottom: 10px
+        font-size: 18px
+    .social-media
+        display: flex
+        a
+            margin: 0 5px
